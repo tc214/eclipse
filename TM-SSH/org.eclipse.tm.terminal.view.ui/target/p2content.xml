@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.eclipse.tm.terminal.view.ui' version='4.3.0.201803121111'>
+    <update id='org.eclipse.tm.terminal.view.ui' range='[0.0.0,4.3.0.201803121111)' severity='0'/>
+    <properties size='8'>
+      <property name='df_LT.pluginName' value='Terminal View'/>
+      <property name='df_LT.providerName' value='Eclipse.org - Target Management'/>
+      <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      <property name='maven-groupId' value='org.eclipse.tm.terminal'/>
+      <property name='maven-artifactId' value='org.eclipse.tm.terminal.view.ui'/>
+      <property name='maven-version' value='4.3.0-SNAPSHOT'/>
+    </properties>
+    <provides size='25'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.view.ui' version='4.3.0.201803121111'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.tm.terminal.view.ui' version='4.3.0.201803121111'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.actions' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.activator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.controls' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.help' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.interfaces' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.interfaces.tracing' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.internal.dialogs' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.internal.handler' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.launcher' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.listeners' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.local.showin' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.manager' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.nls' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.panels' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.preferences' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.services' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.streams' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.tabs' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.view' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.tm.terminal.view.ui.view.showin' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <requires size='9'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='3.4.400'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.8.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='3.8.1' optional='true' greedy='false'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.variables' range='3.2.600'/>
+      <required namespace='osgi.bundle' name='org.eclipse.debug.ui' range='3.8.1' optional='true' greedy='false'/>
+      <required namespace='osgi.bundle' name='org.eclipse.egit.ui' range='2.0.0' optional='true' greedy='false'/>
+      <required namespace='osgi.bundle' name='org.eclipse.tm.terminal.view.core' range='4.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.tm.terminal.control' range='4.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='3.8.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal.view.ui' version='4.3.0.201803121111'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.tm.terminal.view.ui;singleton:=true&#xA;Bundle-Version: 4.3.0.201803121111&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.eclipse.tm.terminal.view.ui.source' version='4.3.0.201803121111' singleton='false'>
+    <update id='org.eclipse.tm.terminal.view.ui.source' range='[0.0.0,4.3.0.201803121111)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.bundleVendor' value='Eclipse.org - Target Management'/>
+      <property name='df_LT.bundleName' value='Terminal View Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.eclipse.tm.terminal'/>
+      <property name='maven-artifactId' value='org.eclipse.tm.terminal.view.ui'/>
+      <property name='maven-version' value='4.3.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.view.ui.source' version='4.3.0.201803121111'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.tm.terminal.view.ui.source' version='4.3.0.201803121111'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal.view.ui.source' version='4.3.0.201803121111'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.tm.terminal.view.ui.source&#xA;Bundle-Version: 4.3.0.201803121111&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
