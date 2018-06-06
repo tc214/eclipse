@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal.connector.process' version='4.2.0.201609191434'>
+    <properties size='5'>
+      <property name='artifact.size' value='24058'/>
+      <property name='download.size' value='24058'/>
+      <property name='maven-groupId' value='org.eclipse.tm.terminal'/>
+      <property name='maven-artifactId' value='org.eclipse.tm.terminal.connector.process'/>
+      <property name='maven-version' value='4.2.0-SNAPSHOT'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal.connector.process.source' version='4.2.0.201609191434'>
+    <properties size='6'>
+      <property name='artifact.size' value='16429'/>
+      <property name='download.size' value='16429'/>
+      <property name='maven-groupId' value='org.eclipse.tm.terminal'/>
+      <property name='maven-artifactId' value='org.eclipse.tm.terminal.connector.process'/>
+      <property name='maven-version' value='4.2.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+  </artifact>
+</artifacts>

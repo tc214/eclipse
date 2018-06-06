@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.tm.terminal.view.ui.rse;singleton:=tr
+ ue
+Require-Bundle: org.eclipse.core.expressions;bundle-version="3.4.400",
+ org.eclipse.core.runtime;bundle-version="3.8.0",org.eclipse.rse.core;
+ bundle-version="3.3.100",org.eclipse.rse.subsystems.files.core;bundle
+ -version="3.3.1",org.eclipse.rse.ui;bundle-version="3.3.100",org.ecli
+ pse.tm.terminal.view.core;bundle-version="4.0.0",org.eclipse.tm.termi
+ nal.view.ui;bundle-version="4.1.0",org.eclipse.tm.terminal.control;bu
+ ndle-version="4.0.0",org.eclipse.ui;bundle-version="3.8.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/tm/org
+ .eclipse.tm.terminal.git;path="plugins/org.eclipse.tm.terminal.view.u
+ i.rse";commitId=121bc1f3ea828cf625634b25221ca1a8b3c73574
+Bundle-Vendor: %providerName
+Export-Package: org.eclipse.tm.terminal.view.ui.rse.activator;x-intern
+ al:=true,org.eclipse.tm.terminal.view.ui.rse.internal;x-internal:=tru
+ e,org.eclipse.tm.terminal.view.ui.rse.nls;x-internal:=true
+Bundle-Name: %pluginName
+Bundle-Version: 4.2.0.201609191434
+Bundle-Localization: plugin
+Bundle-Activator: org.eclipse.tm.terminal.view.ui.rse.activator.UIPlug
+ in
+
